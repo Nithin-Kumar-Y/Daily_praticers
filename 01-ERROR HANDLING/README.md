@@ -103,7 +103,7 @@ except (ValueError, ZeroDivisionError):
 
 ---
 
-## 🔵 LEVEL 5 — `except Exception as e` (Debugging)
+## 🔵 LEVEL 5 — except Exception as e (Debugging)
 
 ```python
 try:
@@ -216,12 +216,12 @@ except ValueError as e:
 
 ## 🔥 LEVEL 12 — Best Practices (Memorize)
 
-✅ Catch specific exceptions
-❌ Never use empty `except:`
-✅ Validate inputs early
-✅ Use `with` for files
-✅ Use logging (later)
-❌ Don’t hide errors silently
+- ✅ Catch specific exceptions
+- ❌ Never use empty `except:`
+- ✅ Validate inputs early
+- ✅ Use `with` for files
+- ✅ Use logging
+- ❌ Don’t hide errors silently
 
 ---
 
